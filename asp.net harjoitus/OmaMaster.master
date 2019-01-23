@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OmaMaster.master.cs" Inherits="OmaMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>SAMK- Lipo</title>
+    <link href="OmaTyyli.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="ylaosa">
+           <div class="kuva1"></div>
+           <div class="paiva">
+               <asp:Label ID="lblPaivays" runat="server" Text="Label" style="font-weight: bold; left: 320px; clip: rect(auto auto auto auto); color: white; position: absolute; top: 35px"></asp:Label></div>
+           <div class="ltmk"></div>
+            
+            <asp:Menu ID="Menu1" runat="server" MaximumDynamicDisplayLevels="1" Orientation="Horizontal"
+                StaticDisplayLevels="2" DataSourceID="OmaSiteMap" style="font-weight: bold; font-size: 70%" ForeColor="White">
+                <StaticMenuItemStyle BackColor="#F4B54E" ForeColor="White" ItemSpacing="10px" />
+                <DynamicHoverStyle Font-Underline="True" />
+                <StaticSelectedStyle ForeColor="Blue" />
+                <DynamicSelectedStyle ForeColor="Blue" />
+                <DynamicMenuItemStyle VerticalPadding="2px" />
+                <StaticHoverStyle Font-Underline="True" />
+                <DynamicMenuStyle BackColor="#F4B54E" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="OmaSiteMap" runat="server" />
+    </div>
+    
+    <div class="valiosa">
+        <div class="vasen" style="margin: 5px"><div> <asp:contentplaceholder id="ContentPlaceHolder2" runat="server">
+            &nbsp;&nbsp;</asp:contentplaceholder></div></div>
+        
+        <div class="sisalto">
+                <div class="polku">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" style="font-weight: bold; font-size: 70%">
+                    </asp:SiteMapPath>
+                </div> 
+                      <div> <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder></div>
+        </div>
+        
+        <div class="oikea"><div> <asp:contentplaceholder id="ContentPlaceHolder3" runat="server">
+        </asp:contentplaceholder></div></div>
+    </div>
+    
+    
+    <div class="alaosa"><p>Copyright © SAMK 2008. <em>Satakunnan ammattikorkeakoulu</em>, Liiketalous, matkailu, tietojenkäsittely ja viestintä Pori. Tiedepuisto 3, 28600 Pori</p></div>
+    
+    
+
+    
+    </form>
+</body>
+</html>

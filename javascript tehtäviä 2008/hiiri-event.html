@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Harjoitus 17.2</title>
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+<style type="text/css">
+body{
+  background-color: gray;
+  }
+
+td{ 
+  border: 2px solid black;
+  padding: 25px;
+}
+</style>
+
+<script type="text/javascript">
+
+
+
+
+function teeTaulukko(){
+   var taulu=document.getElementById("joo");
+	for ( var i = 0; i < 10; i++ ) {
+		var row = taulu.insertRow(i);
+		for ( var x = 0; x < 10; x++ ) {
+			var cell = row.insertCell(x);
+			cell.onmouseover=vaihdaVari;
+			cell.onmouseout=vaihdaTakas;
+		}
+	}
+}
+
+
+
+function vaihdaVari(evt){
+evt.target.style.borderColor="red";
+}
+
+function vaihdaTakas(evt){
+evt.target.style.borderColor="black";
+}
+
+
+
+
+
+</script>
+
+
+<table id="joo"></table>
+ </head>
+
+<body onload="teeTaulukko()">
+</body>
+</html>
+
+ 

@@ -1,0 +1,343 @@
+body {
+  font-family: Verdana,sans-serif;
+  font-size: 10pt;
+  background-color: #989898;
+  color: black;
+  margin-right:20px;
+  margin-left: 20px;
+  margin-top:155px;
+  margin-bottom:20px;
+}
+
+
+h1 {
+  font-family: Verdana, sans-serif;
+  font-size: 20pt;
+  margin-left: 20px;
+  color: black;
+  
+}
+
+h2.sisalto {
+  font-family: Verdana, sans-serif;
+  font-size: 12pt;
+  margin-left: 20px;
+  color: black;
+  
+}
+  
+h2.linkki {
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  margin-left: 0px;
+  color: black;
+  
+  
+}
+p {
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  margin-left: 20px;
+}
+
+
+
+
+div.sisalto { 
+  margin-top: 0px;
+  margin-left: 0px; 
+  margin-right: 0px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: justify;
+  width: 95%;
+  border: solid black 1px;
+  background-color: white;
+  
+}
+
+div.sisaltotausta {
+  
+  
+  margin-top: 155px;
+  margin-left: 230px; 
+  margin-right: 0px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 687px;
+  border-left: solid black 1px;
+  border-bottom: solid black 1px;
+  border-right: solid black 1px;
+  border-top: none;
+  background-color: #8c0205;
+  
+}
+
+
+div.grind {
+ position: fixed;
+ width: 697px;
+ height: 177px;
+ background-image: url("../images/otsikko.jpg");
+ margin-top: 0px;
+ padding-left:0px;
+ left: 250px;
+ top: 0px;
+ border-top: none;
+ border-bottom: none;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+}
+
+div.ylavasen {
+  background-image: url("../images/ylavasen1.jpg");
+  position: fixed;  
+  
+  width: 153px;
+  height:253px;
+  font-size: 100%;
+  
+  top: 1px;
+  left: 73px;
+  
+}
+ div.alavasen {
+  background-image: url("../images/alavasen.jpg");
+  position: fixed;  
+  width: 153px;
+  height:146px;
+  font-size: 100%;
+  
+  top: 520px;
+  left: 73px;
+  
+}
+
+
+
+div.linkit1 {
+  background-image: url("../images/linkki.jpg");
+  position: fixed;  
+  width: 153px;
+  height:256px;
+  font-size: 100%;
+  top: 255px;
+  margin: 0px;
+  left:73px;
+  padding: 0px;
+}
+
+
+div.viisulinkit{
+
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-bottom:100px;
+	
+}
+
+
+
+ul {
+
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  border: none;
+  
+}
+
+li {
+  border-collapse: collapse;
+  list-style-position: inside;
+  list-style-type: circle;
+  padding: 0px;
+  margin: 0px;
+ 
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fefbfb;
+}
+
+a:link {
+  color: #fefbfb;
+  background-color: transparent;
+}
+
+
+
+a:hover {
+  
+  color: #9a9999;
+}
+
+a.lista{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  }
+  
+ a.lista:link {
+  color: black;
+  background-color: transparent;
+}
+
+
+
+a.lista:hover {
+  
+  color:#9a9999;
+} 
+
+
+
+table.uutinen {
+	border: 1px solid black;
+	color: black;
+	margin: auto;
+	width: 80%;
+	background-color: white;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	
+	}
+	
+table.esiintyjat {
+ 	border: 1px solid black;
+ 	margin: auto;
+ 	width: 80%;
+ 	background-color: white;
+ 	color: black;
+ 	border-collapse: collapse;
+ 	padding-top: 10px;
+ 	margin-bottom: 10px;
+ }
+ 
+ table.esiintyjat2 {
+ 	margin: auto;
+ 	
+ }
+ 
+
+td {
+	border: 1px solid black;
+	
+}
+
+thead{
+	font-weight: bold;
+	}
+
+td.pvm {
+	border: 1px solid black;
+	background-color: white;
+	text-align: justify;
+	width: 20%;
+	font-weight: bold;
+	color: black;
+	padding-left: 5px;
+}
+
+td.otsikko {
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+	text-align: justify;
+	width: 80%;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+td.uutinen {
+	border: none;
+	background-color: white;
+	color: black;
+	text-align: justify;
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+
+	
+}
+
+
+
+img.oikea {
+ float: right;
+ 
+ 
+}
+
+img.vasen {
+ float: left;
+
+ }
+ 
+img.mikko {
+ float: left;
+ border: 1px solid black;
+ margin: 10px;
+ padding: 0px;
+}
+
+img.jaana {
+ float: right;
+ border: 1px solid black;
+ margin: 10px;
+ padding: 0px;
+}
+
+img.areena{
+  float: right;
+  border: 1px solid black;
+  margin: 10px;
+  
+}
+img.ekalogo{
+float: right;
+  border: 1px solid black;
+  margin: 10px;
+  
+}
+
+
+
+fieldset {
+  margin-top: 25px;
+  margin-left: 60px;
+  width: 80%;
+}
+
+input {
+	border: 1px solid black;
+	margin: 1px;
+	width: 200px;
+	
+	
+}
+
+em.lihavoi{
+	font-style: normal;
+	font-weight: bold;
+}
+
+em.kursivoi{
+	font-style: italic;
+}
+
+legend {
+	color: black;
+}

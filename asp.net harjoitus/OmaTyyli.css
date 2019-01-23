@@ -1,0 +1,119 @@
+﻿body 
+{  font-family: Verdana;
+	background-color: #ffffff;
+   color : #000000;
+   margin : 0px;
+}
+/*div
+{  border :solid 1px black;
+}*/
+div.ylaosa
+{	position:fixed;
+	margin-left:0px;
+	margin-top:0px;
+	height:115px; 
+	width:100%;
+	background-color:#f4b54e;
+}
+	
+div.kuva1
+{	position:fixed;
+	margin-left:0px;
+	margin-top:0px;
+	height:95px;
+	width:291px;
+	background-image:url("Samk.jpg");
+	
+}
+div.paiva
+{	margin-left:292px;
+	margin-top:0px;
+	height:95px;
+	width:310px;
+	background-image:url("Paivays.jpg");
+	
+}
+div.ltmk
+{	position:fixed;
+	right:0px;
+	top:0px;
+	margin-right:0px;
+	height:95px;
+	width:123px;
+	background-image:url("LTMK.jpg");
+	
+}
+	
+	
+div.valiosa
+{	position:fixed;
+	top:115px;
+	left:0px;
+	right:0px;
+	bottom:33px;
+	width:100%;
+	height:auto;
+}
+
+div.vasen
+{	position:fixed;
+	left:0px;
+	top:116px;
+	bottom:33px;
+	width:200px;
+
+}
+
+div.sisalto
+{	margin-left:201px;
+	margin-right:201px;
+	top:116px;
+	bottom:33px;
+	
+}
+
+div.oikea
+{	position:fixed;
+	right:0px;
+	top:116px;
+	bottom:33px;
+	width:200px;
+}
+
+div.polku
+{	background-color:#f4b54e;
+	height:20px;
+}
+	
+
+div.alaosa
+{
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:32px;
+	background-color:#f4b54e;
+}
+
+img.etusivu
+{
+	padding-left:30%;
+	padding-top:5%;
+
+}
+
+p
+{	font-family: Verdana;
+	font-size:70%;
+	text-align:center;
+}
+em
+{
+	font-weight:bold;
+	font-style:normal;
+}
+	
+	
+	
+	

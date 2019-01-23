@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Harjoitus 14.1</title>
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+<style type="text/css">
+body {  
+  
+  font-family:verdana, serif;
+  font-weight: bold;
+  margin: 75px;
+  }
+
+table {
+  border: 2px solid black;
+  background-color: red;
+  font-size: 12pt
+  }
+  
+tr {
+  border: 2px solid black;
+  }
+
+td {
+  border: 2px solid black;
+  padding: 25px;
+  }
+</style>
+
+
+
+<script type="text/javascript">
+siili1 = new Image();
+siili1.src = "siili.gif";
+
+siili2 = new Image();
+siili2.src = "siilivaroitus.gif";
+
+siili3 = new Image();
+siili3.src = "siilinvappu.gif";
+
+siili4 = new Image();
+siili4.src = "siiliui.gif";
+
+function nayta1(){
+  var kuva = document.getElementById("kuvaa");
+  kuva.src = siili1.src;
+}
+function nayta2(){
+  var kuva = document.getElementById("kuvaa");
+  kuva.src = siili2.src;
+}
+function nayta3(){
+  var kuva = document.getElementById("kuvaa");
+  kuva.src = siili3.src;
+}
+function nayta4(){
+  var kuva = document.getElementById("kuvaa");
+  kuva.src = siili4.src;
+}
+
+
+</script>
+</head>
+
+<body>
+
+
+<table>
+ <tr>
+ 	<td id="nappulat">
+ 		<input type="radio" name="nappula" value="1" onclick="nayta1()"/>Siili
+		<input type="radio" name="nappula" value="2" onclick="nayta2()"/>Siili varoittaa
+   		<input type="radio" name="nappula" value="3" onclick="nayta3()"/>Siilin vappu
+    	<input type="radio" name="nappula" value="4" onclick="nayta4()"/>Siili uimassa
+    </td>
+    </tr>
+  <tr>  
+ 	<td><img id="kuvaa" src="" alt=""/></td>
+ </tr>
+</table>	
+
+</body>
+</html>
+
+ 

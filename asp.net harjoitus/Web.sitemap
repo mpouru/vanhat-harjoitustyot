@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="Default.aspx" title="Etusivu"  description="Etusivu">
+		<siteMapNode url="http://www.samk.fi/haku/" title="Hakija"  description="Hakija" />
+		<siteMapNode url="Tyhja.aspx?id=7" title="Esittely"  description="Esittely" />
+		<siteMapNode url="Tyhja.aspx?id=11" title="Opiskelija"  description="Opiskelija" >
+			<siteMapNode url="Tyhja.aspx?id=9" title="Järjestelmäkeskus"  description="Järjestelmäkeskus" />
+			<siteMapNode url="Tyhja.aspx?id=10" title="Opiskelu"  description="Opiskelu" />
+			<siteMapNode url="Tyhja.aspx?id=1" title="Opiskelupalvelut"  description="Opiskelupalvelut" />
+			<siteMapNode url="Tyhja.aspx?id=2" title="Kansainvälisyys"  description="Kansainvälisyys" />
+		</siteMapNode>
+		<siteMapNode url="Tyhja.aspx?id=8" title="Tutkimus ja kehittämistoiminta"  description="Tutkimus ja kehittämistoiminta" >
+			<siteMapNode url="Tyhja.aspx?id=3" title="Toimialamme"  description="Toimialamme" />
+			<siteMapNode url="Tyhja.aspx?id=4" title="Toimipisteet"  description="Toimipisteet" />
+			<siteMapNode url="Tyhja.aspx?id=5" title="Tutkimus ja kehittämistoiminta"  description="Tutkimus ja kehittämistoiminta" />
+			<siteMapNode url="Tyhja.aspx?id=6" title="Kirjasto"  description="Kirjasto" />
+		</siteMapNode>
+		<siteMapNode url="Yhteys.aspx" title="Yhteystiedot"  description="Yhteystiedot" />
+	</siteMapNode>
+</siteMap>
